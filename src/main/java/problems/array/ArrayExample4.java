@@ -22,6 +22,12 @@ public class ArrayExample4 {
         System.out.println("Indices array : " + Arrays.toString(ArrayExample4.twoSum(numbers, 9)));
     }
 
+    /**
+     * Complexity - O(n)
+     * @param numbers
+     * @param target
+     * @return indices array
+     */
     private static int[] twoSum(int[] numbers, int target) {
         int[] indices = new int[2];
         Map<Integer, Integer> indexMap = new HashMap<>();
