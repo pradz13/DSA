@@ -23,12 +23,7 @@ import java.util.List;
  */
 public class ArrayExample1 {
     public static void main(String[] args) {
-        List<Long> expenseList = new ArrayList<>();
-        expenseList.add(2200L);
-        expenseList.add(2350L);
-        expenseList.add(2600L);
-        expenseList.add(2130L);
-        expenseList.add(2190L);
+        List<Long> expenseList = new ArrayList<>(Arrays.asList(2200L, 2350L, 2600L, 2130L, 2190L));
 
         long januaryExpense = expenseList.get(0);
         long februaryExpense = expenseList.get(1);
